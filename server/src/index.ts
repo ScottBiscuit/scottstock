@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
 
 /* ROUTES */
-app.use("/dashboard", dashboardRoutes);
+app.use("/dashboard", dashboardRoutes); // http://localhost:8000/dashboard
 
 /* SERVER */
 const port = process.env.PORT || 3001;
